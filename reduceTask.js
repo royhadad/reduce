@@ -24,10 +24,9 @@ const result = data.reduce((newData, current) => ({
             ...current
         }
     }
-})
-    , {
-        ids: [],
-        items: {}
-    });
+}), {
+    ids: [],
+    items: {}
+});
 
 console.log(result);
